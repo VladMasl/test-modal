@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  min-width: 280px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 6px 8px;
+  border:none;
+  background-color: darkorange;
+  color: #fff;
+
+  &:hover {
+    background-color: rgba(255, 77, 0, 0.75);
+  }
+}

@@ -1,0 +1,22 @@
+.root {
+.modal {
+  width: 100%;
+  max-width: 750px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fb6a00;
+  padding-bottom: .5rem;
+}
+
+
+
+.body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+}

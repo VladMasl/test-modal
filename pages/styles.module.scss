@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(251, 106, 0, 0.49);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  width: 100%;
+  margin:auto ;
+}

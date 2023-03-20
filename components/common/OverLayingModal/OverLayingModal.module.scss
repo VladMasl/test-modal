@@ -1,0 +1,45 @@
+.root {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .btn {
+    margin-left: auto;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(254, 42, 14);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 2px rgba(251, 46, 0, 0.49);
+    padding: 1rem;
+    border-radius: 12px;
+    cursor: auto;
+  }
+
+  &.opened {
+    z-index: 10;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
